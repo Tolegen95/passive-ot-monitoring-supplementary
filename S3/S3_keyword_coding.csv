@@ -1,0 +1,45 @@
+﻿record_id,author_keywords_raw,normalized_topic_labels
+OT-008,Beacon detection; Command-and-control detection; Industrial control systems; Network security; SCADA security; Timing-based traffic analysis; Unsupervised anomaly detection,Industrial control systems; SCADA; Anomaly detection
+OT-016,early warning system; honeypot; incident response; industrial cybersecurity; Industrial Ethernet; NIS2; OT monitoring; PROFINET; SIEM; SOC,Cybersecurity; Operational technology
+OT-024,Anomaly-Detection; Cyber-security; Edge-Computing; ICS; IDS; IIoT; Machine-Learning,Industrial control systems; Intrusion detection; Machine learning; Anomaly detection; Cybersecurity; IIoT
+OT-031,critical water infrastructure; cybersecurity; deep packet inspection; industrial control systems; intrusion detection system; IoT telemetry; IT/OT convergence; NIS2; Snort 3,Industrial control systems; Intrusion detection; Cybersecurity; Deep packet inspection
+OT-032,Operational Technology Security;Industrial Control Systems;Passive Intrusion Detection System;Programmable Logic Controllers;Network Monitoring;Small and Medium-Sized Enterprises,Industrial control systems; Intrusion detection; Operational technology; Passive monitoring
+OT-039,IDS; Intrusion Detection; Mamba; Sonar,Intrusion detection
+OT-041,Cybersecurity;deep learning;distributed network;intrusion detection;network analysis;smart grid;segmented neural network,Cybersecurity; Deep learning
+OT-042,Cybersecurity;Industrial Control System;Intrusion Detection System;Graph Neural Networks,Industrial control systems; Intrusion detection; Cybersecurity
+OT-045,zero-day attack detection;network intrusion detection systems;industrial control systems security;heavy-hitter concept;graph-based detection;real-time attack data,Industrial control systems; Intrusion detection
+OT-049,Anomaly detection;cybersecurity;software-defined networking;generative adversarial network;restricted Boltzmann machine,Anomaly detection; Cybersecurity
+OT-050,Deep autoencoder Gaussian mixture model (DAGMM); industrial control system (ICS); industrial cyber-physical systems (ICPS); network traffic analysis; unsupervised anomaly detection,Industrial control systems; Anomaly detection
+OT-052,Critical infrastructure; Industrial Control Systems; Network Isolation; Network-Based Intrusion Detection System,Industrial control systems; Intrusion detection
+OT-059,Behavioral;Intrusion Detection System (IDS);Industrial Control System (ICS);Naval Testbed,Industrial control systems; Intrusion detection
+OT-060,industrial control systems;programmable logic controllers;ICS attacks;control logic;intrusion detection systems,Industrial control systems; Intrusion detection
+OT-061,Industrial control;machine learning;intrusion detection;neural networks;standardization,Machine learning
+OT-063,cybersecurity; encrypted traffic; industrial control systems; machine learning; security monitoring,Industrial control systems; Machine learning; Cybersecurity
+OT-067,Deep reinforcement learning;network intrusion detection;SCADA;industrial control systems;microgrids,Industrial control systems; Intrusion detection; SCADA
+OT-070,distribution network;network security;IDS,Intrusion detection
+OT-072,ICS; Intrusion Detection; Machine Learning; SCADA,Industrial control systems; Machine learning; SCADA
+OT-074,Decision Support Systems; Industrial Control Systems; Intrusion Detection Systems; Machine Learning,Industrial control systems; Intrusion detection; Machine learning
+OT-076,Industrial Control Systems; Machine Learning; SCADA,Industrial control systems; Machine learning; SCADA
+OT-077,incident response; Industrial control systems (ICSs); information technology (IT) / operational technology (OT) convergence; OT security; risk management; safety,Industrial control systems; Operational technology
+OT-084,cybersecurity; deep learning; industrial control systems; intrusion detection system,Industrial control systems; Intrusion detection; Cybersecurity; Deep learning
+OT-089,industrial control systems; intrusion detection; Wasserstein generative adversarial network,Industrial control systems
+OT-090,industrial control systems; machine learning; network security,Industrial control systems; Machine learning
+OT-093,Industrial Control Systems;Network Intrusion Detection;Machine Learning;String Algorithm,Industrial control systems; Intrusion detection; Machine learning
+OT-095,anomaly-detection; autoencoder; cybersecurity; Distributed Network Protocol (DNP3); function code; Intrusion Detection System (IDS); machine learning; Supervisory Control and Data Acquisition (SCADA),Intrusion detection; Machine learning; SCADA; Anomaly detection; Cybersecurity; DNP3
+OT-100,,
+OT-105,Anomaly detection; Industrial control system; Intrusion detection system; Machine learning; SCADA,Industrial control systems; Intrusion detection; Machine learning; SCADA; Anomaly detection
+OT-109,Active and passive; Attack detection; Control logic; Industrial control system; PLC; Process control attacks,Industrial control systems
+OT-113,Industrial Control System (ICS);Machine Learning;Cyber-attacks;Network Intrusion Detection;SCADA,Industrial control systems; Intrusion detection; Machine learning; SCADA
+OT-114,anomaly detection;transfer learning;deep learning;Industrial Control System (ICS),Industrial control systems; Anomaly detection; Deep learning
+OT-120,Supervisory control and data acquisition (SCADA) network;intrusion detection system (IDS);few-shot learning;industrial control system (ICS);cyber attacks,Industrial control systems; Intrusion detection; SCADA
+OT-121,Anomaly detection; Deep learning; Deep packet inspection; Industrial control system; Intrusion detection system; Machine learning; Operational technology,Industrial control systems; Intrusion detection; Machine learning; Anomaly detection; Deep learning; Deep packet inspection; Operational technology
+OT-123,Network Intrusion Detection System;Industrial Control System;Machine Learning;Learning using Privileged Information,Industrial control systems; Intrusion detection; Machine learning
+OT-130,industrial control systems;intrusion detection systems;assessment;risk quantification,Industrial control systems; Intrusion detection
+OT-132,deep packet inspection; industrial control and automation system security; industrial firewall; intrusion detection and prevention system; Modbus/TCP,Deep packet inspection; Modbus
+OT-138,Industrial control system; Intrusion detection system; Network security,Industrial control systems; Intrusion detection
+OT-144,Intrusion detection; Power distribution; Process aware; SCADA; Zeek,SCADA; Process-aware detection
+OT-146,Network intrusion detection system;deep learning;convolutional neural network;SCADA system security;cyber attack detection;attacks on DNP3 protocol,Intrusion detection; SCADA; Deep learning; DNP3
+OT-151,Control logic; Industrial control system; PLC; SCADA,Industrial control systems; SCADA
+OT-153,Cybersecurity; Fog Computing; Industrial Informatics; Industrial Internet of Things; Intrusion Detection System; New Implementation Approaches,Intrusion detection; Cybersecurity; IIoT
+OT-154,ICS security;intrusion detection;recurrent neural networks;anomaly detection,Industrial control systems; Anomaly detection
+OT-155,"Security and privacy, Systems security, Anomaly detection, SCADA",SCADA; Anomaly detection

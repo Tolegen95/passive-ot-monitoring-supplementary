@@ -1,0 +1,91 @@
+record_id,question_id,domain,signalling_question,answer,basis
+W04 [16],1.1,D1,"Is the provenance of the OT traffic stated (physical testbed, operational site, simulation, generated) and the capture point described?",Yes,Physical laboratory and copied-traffic context reported.
+W04 [16],1.2,D1,Does benign traffic cover more than one operating mode or a duration long enough to include routine changes?,Unclear,The available extraction did not establish this signalling item.
+W04 [16],1.3,D1,Were inappropriate exclusions avoided (no removal of hard-to-classify records before evaluation)?,Unclear,The available extraction did not establish this signalling item.
+W04 [16],1.4,D1,Is attack traffic generated independently of the detector design?,Unclear,The available extraction did not establish this signalling item.
+W04 [16],2.1,D2,Was the decision threshold or operating point fixed before evaluation on the test data?,Unclear,The available extraction did not establish this signalling item.
+W04 [16],2.2,D2,Are the detector's inputs obtainable by a receive-only sensor at the stated observation point at inference time?,Yes,Inputs were network-derived and usable from the stated observation point.
+W04 [16],2.3,D2,"If the architecture is hybrid, is the passive component's output reported separately?",Unclear,The available extraction did not establish this signalling item.
+W04 [16],2.4,D2,Is the detector compared with an appropriate baseline on the same data?,No,No appropriate same-data baseline was reported.
+W04 [16],3.1,D3,Are ground-truth labels derived from an attack log or execution record rather than from the detector or post-hoc inspection?,Unclear,The available extraction did not establish this signalling item.
+W04 [16],3.2,D3,Are label boundaries in time defined at the level of the decision unit?,Unclear,The available extraction did not establish this signalling item.
+W04 [16],3.3,D3,Were labels assigned without knowledge of the detector's results?,Unclear,The available extraction did not establish this signalling item.
+W04 [16],4.1,D4,"Are training and test data separated in time, run or session?",Unclear,The available extraction did not establish this signalling item.
+W04 [16],4.2,D4,"Are scaling, feature selection and resampling fitted on training data only?",Unclear,The available extraction did not establish this signalling item.
+W04 [16],4.3,D4,Are all test decision units included in the reported metrics?,Unclear,The available extraction did not establish this signalling item.
+W04 [16],4.4,D4,Is the attack denominator stated as distinct attacks or scenarios?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],1.1,D1,"Is the provenance of the OT traffic stated (physical testbed, operational site, simulation, generated) and the capture point described?",Yes,ICS/SCADA testbed traffic provenance reported.
+W08 [17],1.2,D1,Does benign traffic cover more than one operating mode or a duration long enough to include routine changes?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],1.3,D1,Were inappropriate exclusions avoided (no removal of hard-to-classify records before evaluation)?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],1.4,D1,Is attack traffic generated independently of the detector design?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],2.1,D2,Was the decision threshold or operating point fixed before evaluation on the test data?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],2.2,D2,Are the detector's inputs obtainable by a receive-only sensor at the stated observation point at inference time?,Yes,Network inputs were obtainable by the identified monitoring component.
+W08 [17],2.3,D2,"If the architecture is hybrid, is the passive component's output reported separately?",Yes,The relevant detector output was reported separately.
+W08 [17],2.4,D2,Is the detector compared with an appropriate baseline on the same data?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],3.1,D3,Are ground-truth labels derived from an attack log or execution record rather than from the detector or post-hoc inspection?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],3.2,D3,Are label boundaries in time defined at the level of the decision unit?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],3.3,D3,Were labels assigned without knowledge of the detector's results?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],4.1,D4,"Are training and test data separated in time, run or session?",No,Independent temporal/run separation was not established for the evaluation partitions.
+W08 [17],4.2,D4,"Are scaling, feature selection and resampling fitted on training data only?",Unclear,The available extraction did not establish this signalling item.
+W08 [17],4.3,D4,Are all test decision units included in the reported metrics?,Unclear,The available extraction did not establish this signalling item.
+W08 [17],4.4,D4,Is the attack denominator stated as distinct attacks or scenarios?,Unclear,The available extraction did not establish this signalling item.
+W22 [18],1.1,D1,"Is the provenance of the OT traffic stated (physical testbed, operational site, simulation, generated) and the capture point described?",Yes,Physical PLC laboratory provenance reported.
+W22 [18],1.2,D1,Does benign traffic cover more than one operating mode or a duration long enough to include routine changes?,Unclear,The available extraction did not establish this signalling item.
+W22 [18],1.3,D1,Were inappropriate exclusions avoided (no removal of hard-to-classify records before evaluation)?,Unclear,The available extraction did not establish this signalling item.
+W22 [18],1.4,D1,Is attack traffic generated independently of the detector design?,No,Crafted attacks were explicitly designed to evade the evaluated mechanisms.
+W22 [18],2.1,D2,Was the decision threshold or operating point fixed before evaluation on the test data?,No,Rules/operating conditions were evaluated on the crafted evasion cases.
+W22 [18],2.2,D2,Are the detector's inputs obtainable by a receive-only sensor at the stated observation point at inference time?,Yes,Evaluated inputs were packet/header/payload fields.
+W22 [18],2.3,D2,"If the architecture is hybrid, is the passive component's output reported separately?",Unclear,The available extraction did not establish this signalling item.
+W22 [18],2.4,D2,Is the detector compared with an appropriate baseline on the same data?,Unclear,The available extraction did not establish this signalling item.
+W22 [18],3.1,D3,Are ground-truth labels derived from an attack log or execution record rather than from the detector or post-hoc inspection?,Yes,Ground truth came from executed attack cases.
+W22 [18],3.2,D3,Are label boundaries in time defined at the level of the decision unit?,Yes,Attack boundaries were defined at the evaluated packet/transfer level.
+W22 [18],3.3,D3,Were labels assigned without knowledge of the detector's results?,Yes,"Labels were assigned from attack execution, not detector output."
+W22 [18],4.1,D4,"Are training and test data separated in time, run or session?",Unclear,The available extraction did not establish this signalling item.
+W22 [18],4.2,D4,"Are scaling, feature selection and resampling fitted on training data only?",Unclear,The available extraction did not establish this signalling item.
+W22 [18],4.3,D4,Are all test decision units included in the reported metrics?,Unclear,The available extraction did not establish this signalling item.
+W22 [18],4.4,D4,Is the attack denominator stated as distinct attacks or scenarios?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],1.1,D1,"Is the provenance of the OT traffic stated (physical testbed, operational site, simulation, generated) and the capture point described?",Yes,The benchmark/dataset source was stated.
+W25 [19],1.2,D1,Does benign traffic cover more than one operating mode or a duration long enough to include routine changes?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],1.3,D1,Were inappropriate exclusions avoided (no removal of hard-to-classify records before evaluation)?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],1.4,D1,Is attack traffic generated independently of the detector design?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],2.1,D2,Was the decision threshold or operating point fixed before evaluation on the test data?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],2.2,D2,Are the detector's inputs obtainable by a receive-only sensor at the stated observation point at inference time?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],2.3,D2,"If the architecture is hybrid, is the passive component's output reported separately?",Yes,CNN detector metrics are reported separately from the SDN-controller/blockchain flow-rule check (Tables III and V).
+W25 [19],2.4,D2,Is the detector compared with an appropriate baseline on the same data?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],3.1,D3,Are ground-truth labels derived from an attack log or execution record rather than from the detector or post-hoc inspection?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],3.2,D3,Are label boundaries in time defined at the level of the decision unit?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],3.3,D3,Were labels assigned without knowledge of the detector's results?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],4.1,D4,"Are training and test data separated in time, run or session?",No,A 70/15/15 record split lacked established temporal/run separation.
+W25 [19],4.2,D4,"Are scaling, feature selection and resampling fitted on training data only?",Unclear,The available extraction did not establish this signalling item.
+W25 [19],4.3,D4,Are all test decision units included in the reported metrics?,Unclear,The available extraction did not establish this signalling item.
+W25 [19],4.4,D4,Is the attack denominator stated as distinct attacks or scenarios?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],1.1,D1,"Is the provenance of the OT traffic stated (physical testbed, operational site, simulation, generated) and the capture point described?",Yes,Simulated/generated traffic provenance was stated.
+W31 [20],1.2,D1,Does benign traffic cover more than one operating mode or a duration long enough to include routine changes?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],1.3,D1,Were inappropriate exclusions avoided (no removal of hard-to-classify records before evaluation)?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],1.4,D1,Is attack traffic generated independently of the detector design?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],2.1,D2,Was the decision threshold or operating point fixed before evaluation on the test data?,Unclear,Threshold = 99.5th percentile of training-set MSE; Table 13 compares percentiles on evaluation data; prespecification before test evaluation not established.
+W31 [20],2.2,D2,Are the detector's inputs obtainable by a receive-only sensor at the stated observation point at inference time?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],2.3,D2,"If the architecture is hybrid, is the passive component's output reported separately?",Unclear,The available extraction did not establish this signalling item.
+W31 [20],2.4,D2,Is the detector compared with an appropriate baseline on the same data?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],3.1,D3,Are ground-truth labels derived from an attack log or execution record rather than from the detector or post-hoc inspection?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],3.2,D3,Are label boundaries in time defined at the level of the decision unit?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],3.3,D3,Were labels assigned without knowledge of the detector's results?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],4.1,D4,"Are training and test data separated in time, run or session?",Unclear,The available extraction did not establish this signalling item.
+W31 [20],4.2,D4,"Are scaling, feature selection and resampling fitted on training data only?",Unclear,The available extraction did not establish this signalling item.
+W31 [20],4.3,D4,Are all test decision units included in the reported metrics?,Unclear,The available extraction did not establish this signalling item.
+W31 [20],4.4,D4,Is the attack denominator stated as distinct attacks or scenarios?,Unclear,The available extraction did not establish this signalling item.
+W36 [21],1.1,D1,"Is the provenance of the OT traffic stated (physical testbed, operational site, simulation, generated) and the capture point described?",Yes,Physical DER testbed provenance was reported.
+W36 [21],1.2,D1,Does benign traffic cover more than one operating mode or a duration long enough to include routine changes?,Unclear,The available extraction did not establish this signalling item.
+W36 [21],1.3,D1,Were inappropriate exclusions avoided (no removal of hard-to-classify records before evaluation)?,Unclear,The available extraction did not establish this signalling item.
+W36 [21],1.4,D1,Is attack traffic generated independently of the detector design?,Unclear,The available extraction did not establish this signalling item.
+W36 [21],2.1,D2,Was the decision threshold or operating point fixed before evaluation on the test data?,No,The ruleset/operating point was justified with evaluation data.
+W36 [21],2.2,D2,Are the detector's inputs obtainable by a receive-only sensor at the stated observation point at inference time?,Yes,The detector used network-derived inputs.
+W36 [21],2.3,D2,"If the architecture is hybrid, is the passive component's output reported separately?",Yes,The detector output was identifiable within the architecture.
+W36 [21],2.4,D2,Is the detector compared with an appropriate baseline on the same data?,Unclear,The available extraction did not establish this signalling item.
+W36 [21],3.1,D3,Are ground-truth labels derived from an attack log or execution record rather than from the detector or post-hoc inspection?,Yes,Ground truth came from executed testbed events.
+W36 [21],3.2,D3,Are label boundaries in time defined at the level of the decision unit?,Yes,Event boundaries were defined for the decision units.
+W36 [21],3.3,D3,Were labels assigned without knowledge of the detector's results?,Yes,Labels were assigned independently of detector output.
+W36 [21],4.1,D4,"Are training and test data separated in time, run or session?",Unclear,The available extraction did not establish this signalling item.
+W36 [21],4.2,D4,"Are scaling, feature selection and resampling fitted on training data only?",Unclear,The available extraction did not establish this signalling item.
+W36 [21],4.3,D4,Are all test decision units included in the reported metrics?,Unclear,The available extraction did not establish this signalling item.
+W36 [21],4.4,D4,Is the attack denominator stated as distinct attacks or scenarios?,Unclear,The available extraction did not establish this signalling item.

@@ -1,0 +1,13 @@
+﻿family,record_id,reference_number
+ScadaBR testbed,W08 [17],17
+ScadaBR testbed,OT-072,26
+ScadaBR testbed,OT-076,27
+gas-pipeline SCADA dataset,W25 [19],19
+gas-pipeline SCADA dataset,OT-113,30
+gas-pipeline SCADA dataset,OT-089,54
+gas-pipeline SCADA dataset,OT-114,60
+gas-pipeline SCADA dataset,OT-120,61
+gas-pipeline SCADA dataset,OT-138,66
+gas-pipeline SCADA dataset,OT-154,71
+control-logic evasion (one group),W22 [18],18
+control-logic evasion (one group),OT-060,46

@@ -1,0 +1,11 @@
+﻿dimension,decision_rule,interpretation
+Traffic provenance,Empirical/simulated/benchmark source separately from detector validation,Extracted source; uncertainty preserved
+Topology,Explicit mirror/TAP/receive-only copy required for confirmed off-path,Do not infer from passive keyword
+Separability,Identify the particular passive component and its metric,Aggregate active/passive result cannot be passive accuracy
+Phase inputs,"Training, setup, inference",Historian labels for training differ from live historian access
+Split independence,Record/time/site/program holdout and overlap,not established in extraction is not absent in paper
+Labels and leakage,Source of truth and target-derived predictor risk,Document table/section; code-level proof not assumed
+Test tuning,Test use for selection/threshold tuning,unclear where extraction is insufficient
+Normal duration/attack denominator,Elapsed normal run and attack trials/groups,Record-level metric not daily analyst burden
+Reproducibility,Actual dataset/code availability,Mention of public dataset not necessarily released implementation
+Latency,Clock origin; window/stride; computation/delivery/display,Forwarding time is not passive alert latency

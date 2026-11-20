@@ -1,0 +1,45 @@
+﻿record_id,primary_network_signal,primary_method,reported_evaluation_setting,note
+OT-008,Flow/header metadata,ML/DL,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-016,Flow/header metadata,Baseline,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-024,Protocol/payload,ML/DL,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-031,Protocol/payload,Rules/DPI,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-032,Flow/header metadata,Baseline,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-039,Protocol/payload,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-041,Protocol/payload,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-042,Protocol/payload,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-045,Flow/header metadata,Rules/DPI,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-049,Derived dataset fields,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-050,Flow/header metadata,ML/DL,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-052,Protocol/payload,Rules/DPI,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-059,Protocol/payload,Process-aware,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-060,Protocol/payload,Rules/DPI,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-061,Flow/header metadata,ML/DL,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-063,Flow/header metadata,ML/DL,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-067,Flow/header metadata,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-070,Protocol/payload,Rules/DPI,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-072,Flow/header metadata,ML/DL,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-074,Flow/header metadata,ML/DL,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-076,Flow/header metadata,ML/DL,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-077,Flow/header metadata,ML/DL,field_pilot,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-084,Flow/header metadata,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-089,Derived dataset fields,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-090,Flow/header metadata,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-093,Protocol/payload,Process-aware,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-095,Protocol/payload,ML/DL,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-100,Protocol/payload,Process-aware,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-105,Protocol/payload,ML/DL,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-109,Protocol/payload,Process-aware,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-113,Derived dataset fields,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-114,Derived dataset fields,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-120,Derived dataset fields,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-121,Protocol/payload,ML/DL,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-123,Protocol/payload,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-130,Flow/header metadata,Baseline,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-132,Protocol/payload,Rules/DPI,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-138,Flow/header metadata,ML/DL,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-144,Protocol/payload,Process-aware,field_pilot,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-146,Protocol/payload,ML/DL,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-151,Protocol/payload,Process-aware,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-153,Protocol/payload,Baseline,physical_lab,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-154,Protocol/payload,ML/DL,offline_benchmark,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
+OT-155,Network + process model,Process-aware,simulated_or_generated,Reviewer-coded primary categories for this figure; overlaps and additional inputs remain in evidence matrix
