@@ -1,0 +1,16 @@
+﻿analysis,reports,evidence_units_upper_bound,note
+All detector-related reports,50,41,Families counted once
+Concern-exclusion subset,45,39,"Excludes OT-045 [28], OT-072 [26], OT-076 [27], OT-109 [29], OT-113 [30]"
+Excluding High risk in >=2 QUADAS-2-OT domains,46,40,"Excludes OT-072 [26], OT-076 [27], OT-123 [63], W22 [18] [18]"
+All: setting field_pilot,2,,
+All: setting offline_benchmark,15,,
+All: setting physical_lab,20,,
+All: setting simulated_or_generated,13,,
+Concern-exclusion: setting field_pilot,2,,
+Concern-exclusion: setting offline_benchmark,13,,
+Concern-exclusion: setting physical_lab,19,,
+Concern-exclusion: setting simulated_or_generated,11,,
+High>=2 exclusion: setting field_pilot,2,,
+High>=2 exclusion: setting offline_benchmark,14,,
+High>=2 exclusion: setting physical_lab,19,,
+High>=2 exclusion: setting simulated_or_generated,11,,

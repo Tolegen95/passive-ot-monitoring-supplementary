@@ -1,0 +1,30 @@
+item,topic,location,status
+1,Title,Title,reported (review; no claim of full PRISMA compliance)
+2,Abstract,Abstract,reported
+3,Rationale,Section 1; Section 1.1; Table 1,reported
+4,Objectives,Section 1 (RQ1–RQ3),reported
+5,Eligibility criteria,Section 2.2; Section 2.3; Table 3; refined rules listed in Section 2.2,reported
+6,Information sources,Section 2.1; Table 2; S1_search_log.csv,reported (three databases; no reference or citation searching)
+7,Search strategy,Table 2; S1_search_log.csv,reported (broad Web of Science string in S1)
+8,Selection process,Section 2.2; S1_first_pass_screening_155.csv; S1_candidate_dispositions.csv,reported (one reviewer; LLM-proposed labels checked by the reviewer)
+9,Data collection process,Section 2.2; Section 2.4; S2,reported
+10a,Data items: outcomes,Section 2.4; Section 2.7; S2,reported
+10b,Data items: other variables,Section 2.3; Section 2.4; S2,reported
+11,Study risk of bias assessment,Section 2.4; Table 4; S7 (second-reviewer check on 12 randomly sampled reports),reported
+12,Effect measures,Section 2.4,not applicable (no pooled effect measure)
+13a-f,Synthesis methods,Sections 2.4–2.7; S2_sensitivity_summary.csv,reported (descriptive synthesis; no meta-analysis)
+14,Reporting bias assessment,Section 4.3,not formally assessed (access bias discussed)
+15,Certainty assessment,—,not assessed
+16a,Results of the search,Section 2.2; Figure 1; S1,reported
+16b,Excluded studies,S1_candidate_dispositions.csv; S1_unavailable_reports.csv,reported
+17,Study characteristics,Section 3.1; Table 5; S2_detector_reports_all50.csv,reported
+18,Risk of bias in studies,Section 3.6; S7,reported
+19,Results of individual studies,S2_detector_reports_all50.csv,reported as extracted
+20a-d,Results of syntheses,Sections 3.1–3.8; Tables 5–7; Figures 2–7,reported
+21,Reporting biases,—,not assessed
+22,Certainty of evidence,—,not assessed
+23a-d,Discussion,Section 4,reported
+24a-c,Registration and protocol,Section 2.1,reported (not registered; amendments listed in Section 2.2)
+25,Support,Funding statement,[authors to complete]
+26,Competing interests,Conflicts of Interest statement,[authors to complete]
+27,Availability of data and code,Data Availability Statement; Supplements S1–S8,reported

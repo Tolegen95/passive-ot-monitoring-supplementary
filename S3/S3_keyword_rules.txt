@@ -1,0 +1,21 @@
+Author-keyword topic normalization, revision cutoff12Nov2026
+Only selected topics are coded; not exhaustive lexical normalization. One paper contributes at most once per topic. Raw terms preserved in CSV.
+
+keyword_rules=[
+ ('Industrial control systems',r'\b(?:industrial control systems?|ics)\b'),
+ ('Intrusion detection',r'\b(?:intrusion detection systems?|ids|nids|network intrusion detection)\b'),
+ ('Machine learning',r'\bmachine[- ]learning\b'),
+ ('SCADA',r'\bscada\b'),
+ ('Anomaly detection',r'\banomal(?:y|ies)[- ]detection\b|\banomaly detection\b'),
+ ('Cybersecurity',r'\bcyber[- ]?security\b'),
+ ('Deep learning',r'\bdeep[- ]learning\b'),
+ ('Deep packet inspection',r'\bdeep packet inspection\b|\bdpi\b'),
+ ('Operational technology',r'\boperational technology\b|\bot security\b|\bot monitoring\b'),
+ ('Modbus',r'\bmodbus\b'),
+ ('DNP3',r'\bdnp3\b'),
+ ('IIoT',r'\biiot\b|\bindustrial internet of things\b'),
+ ('Passive monitoring',r'\bpassive (?:network )?(?:monitoring|intrusion detection)\b'),
+ ('Process-aware detection',r'\bprocess[- ]aware\b'),
+]
+
+Primary coding: one reviewer-assigned main category per paper is for display; secondary labels remain in S2/S3 multilabel tables. This coding is not a performance ranking.

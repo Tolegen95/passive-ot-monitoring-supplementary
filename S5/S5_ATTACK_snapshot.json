@@ -1,0 +1,457 @@
+{
+  "release": "ATT&CK v20.1",
+  "retrieved_on": "2026-11-12",
+  "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/v20.1/ics-attack/ics-attack.json",
+  "source_sha256": "3f6448369f9135ade84ff6437479441530d0b262f910dca991879a7146b524ff",
+  "objects": [
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--097924ce-a9a9-4039-8591-e0deedfb8722",
+      "created": "2020-05-21T17:43:26.506Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0836",
+          "external_id": "T0836"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:48:47.174Z",
+      "name": "Modify Parameter",
+      "description": "Adversaries may modify parameters used to instruct industrial control system devices. These devices operate via programs that dictate how and when to perform actions based on such parameters. Such parameters can determine the extent to which an action is performed and may specify additional options. For example, a program on a control system device dictating motor processes may take a parameter defining the total number of seconds to run that motor.      \n\nAn adversary can potentially modify these parameters to produce an outcome outside of what was intended by the operators. By modifying system and process critical parameters, the adversary may cause [Impact](https://attack.mitre.org/tactics/TA0105) to equipment and/or control processes. Modified parameters may be turned into dangerous, out-of-bounds, or unexpected values from typical operations. For example, specifying that a process run for more or less time than it should, or dictating an unusually high, low, or invalid value as a parameter.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "impair-process-control"
+        }
+      ],
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_deprecated": false,
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_is_subtechnique": false,
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Embedded",
+        "Windows",
+        "Linux"
+      ],
+      "x_mitre_version": "1.3"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--2dc2b567-8821-49f9-9045-8740f3d0b958",
+      "created": "2020-05-21T17:43:26.506Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0853",
+          "external_id": "T0853"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-07T16:51:17.493Z",
+      "name": "Scripting",
+      "description": "Adversaries may use scripting languages to execute arbitrary code in the form of a pre-written script or in the form of user-supplied code to an interpreter. Scripting languages are programming languages that differ from compiled languages, in that scripting languages use an interpreter, instead of a compiler. These interpreters read and compile part of the source code just before it is executed, as opposed to compilers, which compile each and every line of code to an executable file. Scripting allows software developers to run their code on any system where the interpreter exists. This way, they can distribute one package, instead of precompiling executables for many different systems. Scripting languages, such as Python, have their interpreters shipped as a default with many Linux distributions. \n\nIn addition to being a useful tool for developers and administrators, scripting language interpreters may be abused by the adversary to execute code in the target environment. Due to the nature of scripting languages, this allows for weaponized code to be deployed to a target easily, and leaves open the possibility of on-the-fly scripting to perform a task.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "execution"
+        }
+      ],
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_deprecated": true,
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_is_subtechnique": false,
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "None"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--4344d1b8-968b-4697-9ab9-f9abe5f52265",
+      "created": "2026-04-20T20:54:17.053Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1692/001",
+          "external_id": "T1692.001"
+        },
+        {
+          "source_name": "Benjamin Freed March 2019",
+          "description": "Benjamin Freed 2019, March 13 Tornado sirens in Dallas suburbs deactivated after being hacked and set off Retrieved. 2020/11/06 ",
+          "url": "https://statescoop.com/tornado-sirens-in-dallas-suburbs-deactivated-after-being-hacked-and-set-off/"
+        },
+        {
+          "source_name": "Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011",
+          "description": "Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011 A Taxonomy of Cyber Attacks on SCADA Systems Retrieved. 2018/01/12 ",
+          "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6142258"
+        },
+        {
+          "source_name": "Zack Whittaker April 2017",
+          "description": "Zack Whittaker 2017, April 12 Dallas' emergency sirens were hacked with a rogue radio signal Retrieved. 2020/11/06 ",
+          "url": "https://www.zdnet.com/article/experts-think-they-know-how-dallas-emergency-sirens-were-hacked/"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:48:51.581Z",
+      "name": "Command Message",
+      "description": "Adversaries may send unauthorized command messages to instruct control system assets to perform actions outside of their intended functionality, or without the logical preconditions to trigger their expected function. Command messages are used in ICS networks to give direct instructions to control systems devices. If an adversary can send an unauthorized command message to a control system, then it can instruct the control systems device to perform an action outside the normal bounds of the device's actions. An adversary could potentially instruct a control systems device to perform an action that will cause an [Impact](https://attack.mitre.org/tactics/TA0105).(Citation: Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011). An adversary could also misuse control system devices to store data collected from the network for later use.\n\nIn the Dallas Siren incident, adversaries were able to send command messages to activate tornado alarm systems across the city without an impending tornado or other disaster.(Citation: Zack Whittaker April 2017)(Citation: Benjamin Freed March 2019)",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "evasion"
+        },
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "impair-process-control"
+        }
+      ],
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_deprecated": false,
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_is_subtechnique": true,
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Embedded",
+        "Windows",
+        "Linux"
+      ],
+      "x_mitre_version": "2.0"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--5d24bb1d-4487-4923-ae3a-8e679092ac7a",
+      "created": "2026-04-20T20:54:20.714Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0846/001",
+          "external_id": "T0846.001"
+        },
+        {
+          "source_name": "NIST SP 800-82r3",
+          "description": "Keith Stouffer. (2023, September). Guide to Operational Technology  (OT) Security. Retrieved April 22, 2026.",
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:48:57.097Z",
+      "name": "Port Scan",
+      "description": "Adversaries may perform a port scan on a system, device, or network to identify live hosts, enumerate open ports and running services, identify operating systems, and map out the network.(Citation: NIST SP 800-82r3) The results of a port scan may inform adversary [Discovery](https://attack.mitre.org/tactics/TA0102), [Lateral Movement](https://attack.mitre.org/tactics/TA0109), and vulnerability exploitation decisions ([Exploitation for Evasion](https://attack.mitre.org/techniques/T0820), [Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T0890), [Exploitation of Remote Services](https://attack.mitre.org/techniques/T0866)). \n\nSome common tools for executing a port scan include `nmap`, `netcat`, and the Advanced Port Scanner.\n",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "discovery"
+        }
+      ],
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_deprecated": false,
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_is_subtechnique": true,
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Embedded",
+        "Windows",
+        "Linux",
+        "Network Devices"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--be69c571-d746-4b1f-bdd0-c0c9817e9068",
+      "created": "2020-05-21T17:43:26.506Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0843",
+          "external_id": "T0843"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:48:41.446Z",
+      "name": "Program Download",
+      "description": "Adversaries may perform a program download to transfer a user program to a controller. \n\nVariations of program download, such as online edit and program append, allow a controller to continue running during the transfer and reconfiguration process without interruption to process control. However, before starting a full program download (i.e., download all) a controller may need to go into a stop state. This can have negative consequences on the physical process, especially if the controller is not able to fulfill a time-sensitive action. Adversaries may choose to avoid a download all in favor of an online edit or program append to avoid disrupting the physical process. An adversary may need to use the technique Detect Operating Mode or Change Operating Mode to make sure the controller is in the proper mode to accept a program download.\n\nThe granularity of control to transfer a user program in whole or parts is dictated by the management protocol (e.g., S7CommPlus, TriStation) and underlying controller API. Thus, program download is a high-level term for the suite of vendor-specific API calls used to configure a controllers user program memory space.  \n\n[Modify Controller Tasking](https://attack.mitre.org/techniques/T0821) and [Modify Program](https://attack.mitre.org/techniques/T0889) represent the configuration changes that are transferred to a controller via a program download.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "lateral-movement"
+        }
+      ],
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_deprecated": false,
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_is_subtechnique": false,
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Embedded"
+      ],
+      "x_mitre_version": "1.1"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--e076cca8-2f08-45c9-aff7-ea5ac798b387",
+      "created": "2020-05-21T17:43:26.506Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0869",
+          "external_id": "T0869"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:48:53.199Z",
+      "name": "Standard Application Layer Protocol",
+      "description": "Adversaries may establish command and control capabilities over commonly used application layer protocols such as HTTP(S), OPC, RDP, telnet, DNP3, and modbus. These protocols may be used to disguise adversary actions as benign network traffic. Standard protocols may be seen on their associated port or in some cases over a non-standard port.  Adversaries may use these protocols to reach out of the network for command and control, or in some cases to other infected devices within the network.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_deprecated": false,
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_is_subtechnique": false,
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Embedded",
+        "Windows",
+        "Linux",
+        "Network Devices"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "type": "x-mitre-detection-strategy",
+      "spec_version": "2.1",
+      "id": "x-mitre-detection-strategy--442e5dcf-7f41-4ba5-ba89-aefb0d1c63cf",
+      "created": "2025-10-21T15:10:28.402Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/detectionstrategies/DET0776",
+          "external_id": "DET0776"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:46:16.865Z",
+      "name": "Detection of Modify Parameter",
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_deprecated": false,
+      "x_mitre_version": "1.0",
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_analytic_refs": [
+        "x-mitre-analytic--48d2023b-469d-4f9f-a4e6-010be72436b9",
+        "x-mitre-analytic--13b48db7-e4d4-47a3-8bd1-60f9c2a039da",
+        "x-mitre-analytic--74cb9e26-6ec1-41e8-9da8-ed30504f9c39"
+      ]
+    },
+    {
+      "type": "x-mitre-detection-strategy",
+      "spec_version": "2.1",
+      "id": "x-mitre-detection-strategy--6bdde391-76eb-4bd7-9e19-e805ab98b7ac",
+      "created": "2026-04-22T18:52:19.941Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/detectionstrategies/DET0907",
+          "external_id": "DET0907"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:46:42.791Z",
+      "name": "Detection of Port Scan",
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_deprecated": false,
+      "x_mitre_version": "1.0",
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_analytic_refs": [
+        "x-mitre-analytic--51a094bf-b7eb-452a-9b7a-ffac16fce1ac",
+        "x-mitre-analytic--b03ff220-3bf8-41bd-a443-0ae287fa8e74",
+        "x-mitre-analytic--ff0f3e46-3817-4b77-a188-74720d721c03",
+        "x-mitre-analytic--bed265af-6f51-42c1-b4d2-691535a32d67"
+      ]
+    },
+    {
+      "type": "x-mitre-detection-strategy",
+      "spec_version": "2.1",
+      "id": "x-mitre-detection-strategy--709e05b2-6400-43a2-9bbf-b64f6017b023",
+      "created": "2025-10-21T15:10:28.402Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/detectionstrategies/DET0752",
+          "external_id": "DET0752"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-05-12T16:34:50.681Z",
+      "name": "Detection of Program Download",
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_deprecated": false,
+      "x_mitre_version": "1.0",
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_analytic_refs": [
+        "x-mitre-analytic--b74100d1-0085-468a-834a-2bf10924a3b7"
+      ]
+    },
+    {
+      "type": "x-mitre-detection-strategy",
+      "spec_version": "2.1",
+      "id": "x-mitre-detection-strategy--732d2487-3241-4866-8bb5-044bb4acdd3b",
+      "created": "2025-10-21T15:10:28.402Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/detectionstrategies/DET0799",
+          "external_id": "DET0799"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:47:56.723Z",
+      "name": "Detection of Standard Application Layer Protocol",
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_deprecated": false,
+      "x_mitre_version": "1.0",
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_analytic_refs": [
+        "x-mitre-analytic--d271c7fc-d76a-4fb0-a645-5db2c1223a32",
+        "x-mitre-analytic--62facfaa-0d19-4479-8cd7-cfef4c30898c",
+        "x-mitre-analytic--f95ebff8-48ae-409a-adfb-8230d870768b",
+        "x-mitre-analytic--154de82d-e589-4dab-ae2a-42a61dc1443a"
+      ]
+    },
+    {
+      "type": "x-mitre-detection-strategy",
+      "spec_version": "2.1",
+      "id": "x-mitre-detection-strategy--d8cb1dd3-8bf2-48e7-99db-473481b823a8",
+      "created": "2025-10-21T15:10:28.402Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/detectionstrategies/DET0794",
+          "external_id": "DET0794"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-10-13T17:46:22.529Z",
+      "name": "Detection of Unauthorized Command Message",
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_deprecated": false,
+      "x_mitre_version": "1.0",
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_analytic_refs": [
+        "x-mitre-analytic--23eb2bc3-735d-4425-96e1-f9d3a1453bfa",
+        "x-mitre-analytic--bef23fc2-f276-4dc4-9e09-c3c546c431a1",
+        "x-mitre-analytic--392fc0ea-dcf5-40cd-81ce-df2a9b90f8cc"
+      ]
+    },
+    {
+      "type": "x-mitre-detection-strategy",
+      "spec_version": "2.1",
+      "id": "x-mitre-detection-strategy--f9ea25e7-6e63-4ef1-a8ad-47a4a261e175",
+      "created": "2025-10-21T15:10:28.402Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "revoked": false,
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/detectionstrategies/DET0735",
+          "external_id": "DET0735"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "modified": "2026-11-03T19:49:42.174Z",
+      "name": "Detection of Scripting",
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_deprecated": true,
+      "x_mitre_version": "1.0",
+      "x_mitre_attack_spec_version": "3.3.0",
+      "x_mitre_domains": [
+        "ics-attack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+﻿record_id,method_families_multilabel,protocol_categories_multilabel,coding_note
+OT-008,ML/DL;Baseline/allowlist,Unspecified/mixed,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-016,Baseline/allowlist;Rules/DPI,PROFINET;Modbus;S7,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-024,Rules/DPI;ML/DL,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-031,Rules/DPI,Modbus;S7;EtherNet/IP-CIP;OPC UA;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-032,Baseline/allowlist;Rules/DPI,Modbus;PROFINET,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-039,ML/DL,Modbus;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-041,ML/DL,DNP3,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-042,ML/DL,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-045,Rules/DPI;ML/DL,Unspecified/mixed,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-049,ML/DL,DNP3,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-050,ML/DL,Unspecified/mixed,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-052,Rules/DPI,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-059,Process-aware,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-060,Rules/DPI;ML/DL,Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-061,ML/DL,Unspecified/mixed,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-063,ML/DL;Baseline/allowlist,PROFINET;OPC UA;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-067,ML/DL,Modbus;DNP3,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-070,Rules/DPI;Baseline/allowlist;Process-aware,Modbus;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-072,Rules/DPI;ML/DL,Modbus;DNP3;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-074,ML/DL;Process-aware,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-076,Rules/DPI;ML/DL,Modbus;DNP3;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-077,ML/DL;Process-aware,Modbus;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-084,ML/DL,Unspecified/mixed,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-089,ML/DL,Modbus;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-090,ML/DL;Baseline/allowlist,PROFINET,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-093,Baseline/allowlist;Process-aware,PROFINET,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-095,ML/DL;Baseline/allowlist,DNP3,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-100,Rules/DPI;Process-aware,Modbus;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-105,Rules/DPI;ML/DL,S7;Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-109,Rules/DPI;Process-aware,S7,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-113,ML/DL,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-114,ML/DL,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-120,ML/DL,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-121,Rules/DPI;ML/DL,Unspecified/mixed,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-123,ML/DL,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-130,Baseline/allowlist,Unspecified/mixed,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-132,Rules/DPI,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-138,ML/DL,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-144,Rules/DPI;Process-aware,IEC 60870-5-104,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-146,ML/DL,DNP3,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-151,Rules/DPI;Process-aware;ML/DL,Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-153,Rules/DPI;Baseline/allowlist,Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-154,ML/DL;Baseline/allowlist,Modbus,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
+OT-155,Process-aware,Other,Reviewer-coded from OT_full_text_evidence_matrix.csv; multiple labels permitted; does not imply comparative performance
